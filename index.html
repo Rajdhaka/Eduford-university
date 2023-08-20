@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <section class="header">
+    <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li> <a href="">About</a></li>
+                <li><a href="">Course</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true"onclick="showMenu()"></i>
+        <!-- <i class="bi bi-list"></i> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+    </nav>
+    <div class="main-text">
+        <h1>World's Biggest University</h1>
+        <p>Maiking website is now one of the easiest thing in the world. You just need to learn just Html, Css,
+            <br>javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Vistit Us to Know More</a>
+    </div>
+   </section>
+   <section class="course">
+    <h2>Courses We Offer</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+   
+    <div class="row">
+        <div class="column">
+            <h3>Intermediate</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis saepe maiores nostrum alias! Corrupti magni quia culpa tenetur voluptas veniam, facilis, porro ab architecto, ad earum fuga sunt aspernatur.</p>
+        </div>
+        <div class="column">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, recusandae facilis. Eos reprehenderit tenetur consequuntur natus ipsum iure laborum rerum tempore nihil officiis voluptas, officia vel adipisci quod mollitia ullam.</p>
+        </div>
+        <div class="column">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A possimus voluptatum aperiam pariatur quibusdam accusantium expedita architecto debitis suscipit nostrum reiciendis provident enim et nobis, nulla praesentium, esse facilis velit.</p>
+        </div>
+    </div>
+   </section>
+   <section class="campus">
+      <h2>Our Global Campus</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      <div class="row">
+        <div class="column-campus">
+            <img class="img" src="./eduford_img/london.png" alt="London-img">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="column-campus">
+            <img class="img" src="./eduford_img/newyork.png" alt="newyork-img">
+            <div class="layer">
+                <h3>NEWYORK</h3>
+            </div>
+        </div>
+        <div class="column-campus">
+            <img class="img" src="./eduford_img/washington.png" alt="washington-img">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+        </div>
+      </div>
+   </section>
+
+   <section class="facilities">
+    <h2>Our Facilities</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    <div class="row">
+        <div class="column-fac">
+            <img src="./eduford_img/library.png" alt="library">
+            <h3>World Class Liberary</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="column-fac">
+            <img src="./eduford_img/basketball.png" alt="library">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+        <div class="column-fac">
+            <img src="./eduford_img/cafeteria.png" alt="library">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
+    </div>
+   </section>
+ 
+
+   <!-- Testimonial section -->
+   <section class="testimonial">
+    <h2>What Our Student Says</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="test-col">
+            <img src="./eduford_img/user1.jpg" alt="user1">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore pariatur, possimus deleniti doloremque perferendis deserunt, magni incidunt voluptatem reiciendis alias eveniet dignissimos distinctio fuga cupiditate. Voluptatum repellat iusto harum?</p>
+                <h3>Aliya Byer</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>     
+        </div>
+        <div class="test-col">
+            <img src="./eduford_img//user2.jpg" alt="user2">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore pariatur, possimus deleniti doloremque perferendis deserunt, magni incidunt voluptatem reiciendis alias eveniet dignissimos distinctio fuga cupiditate. Voluptatum repellat iusto harum?</p>
+                <h3>Dave Nolan</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>   
+        </div>
+    </div>
+   </section>
+
+<!-- Call to action section -->
+   <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>
+    Anywhere From the World</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+   </section>
+
+   <!-- Footer -->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, delectus reiciendis ad pariatur consectetur dolorem asperiores natus <br>earum voluptatum harum, eum cumque voluptas id est</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Create By Rajesh Kumar Dhaka</p>
+   </section>
+
+
+
+   <script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+       navLinks.style.right = "0";
+    }
+    function hideMenu(){
+       navLinks.style.right="-200px";
+    }
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
